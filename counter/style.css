@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url('https://images6.alphacoders.com/111/1119425.jpg'); */
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-position: center center;
+    min-height: 100vh;
+    font-family: "Roboto Mono", monospace;
+    background-image: linear-gradient(140deg, #051E22, #5A944D);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-text-stroke: 0.2px black;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-top: -10rem;
+    font-weight: normal;
+    font-weight: bolder;
+}
+
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span{
+    font-size: 1.5rem;
+}
