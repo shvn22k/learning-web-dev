@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="quiz-container">
+        <header class="quiz-header">
+            <h1 class="quiz-title" id="quiz-title">General Knowledge Quiz </h1>
+            <div class="quiz-info">
+                <span id="question-count">Questions</span>
+            </div>
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar"></div>
+            </div>
+        </header>
+        
+        <div class="question-container">
+            <h2 class="question" id="question-text">Loading question...</h2>
+            
+            <div class="options-container" id="options-container">
+                <!-- Options will be added dynamically here -->
+            </div>
+        </div>
+        
+        <div class="navigation">
+            <button class="btn" id="next-btn">Next Question</button>
+        </div>
+    </div>
+    <script src="scripty.js"></script>
+</body>
+</html>
