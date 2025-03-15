@@ -4,6 +4,7 @@
     --base: #ffc600;
     --spacing: 10px;
     --blur: 10px;
+    --bg: #193548;
 
 
 }
@@ -16,7 +17,7 @@ img {
 
 body {
     text-align: center;
-    background: #193548;
+    background: linear-gradient(140deg, var(--bg), white);
     color: white;
     font-family: "Roboto Mono", monospace;
     font-weight: 100;
