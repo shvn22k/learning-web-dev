@@ -9,3 +9,6 @@
     Deployment: [here](https://bad-dum-tuss.netlify.app/)
 - Project 5: Digital Clock (day 3)<br />
     Deployment: [here](https://time-rn.netlify.app/)
+- Project 6: Playing with CSS Variable (day 3)<br />
+    (blur feature added to inventory)<br />
+    DeploymentL [here](https://howtoblur-css.netlify.app/)
