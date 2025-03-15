@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html {
+    background: url(https://images.unsplash.com/photo-1518215069569-0781b2f8cc69?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    font-size: 10px;
+    background-attachment: fixed;
+}
+
+body {
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: relative;
+}
+
+.clock {
+    width: 30rem;
+    border: 20px solid whitesmoke;
+    border-radius: 50%;
+    height: 30rem;
+    margin: 0 auto 15rem auto;
+    position: relative;
+    padding: 2rem;
+    box-shadow: 
+        0 0 0 4px rgba(0,0,0,0.1),
+        inset 0 0 0 1px #efefef,
+        inset 0 0 0 5px black,
+        0 0 0 5px rgba(0,0,0,0.2);
+}
+
+.clock-face {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
+
+.hand {
+    background: black;
+    height: 7px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform-origin: 100% 50%;
+    transform: rotate(90deg);
+}
+
+.hour-hand {
+    width: 30%;
+}
+
+.min-hand {
+    width: 50%;
+    height: 5px;
+}
+
+.second-hand {
+    width: 45%;
+    height: 3px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -5rem; 
+}
+
+.tp {
+    border: .2rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+}
