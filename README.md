@@ -7,3 +7,5 @@
     Deployment: [here](https://somerandomjokes.netlify.app/)
 - Project 4: Drum Kit <br />
     Deployment: [here](https://bad-dum-tuss.netlify.app/)
+- Project 5: Digital Clock <br />
+    Deployment: [here](https://time-rn.netlify.app/)
