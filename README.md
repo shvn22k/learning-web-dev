@@ -11,4 +11,6 @@
     Deployment: [here](https://time-rn.netlify.app/)
 - Project 6: Playing with CSS Variable (day 3)<br />
     (blur feature added to inventory)<br />
-    DeploymentL [here](https://howtoblur-css.netlify.app/)
+    Deployment: [here](https://howtoblur-css.netlify.app/)
+- Project 7: Flex Panels (day 4)<br />
+    Deployment: [here](https://letstakeitallin.netlify.app/)
