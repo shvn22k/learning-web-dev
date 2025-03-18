@@ -15,10 +15,16 @@
     (blur feature added to inventory)<br />
     Deployment: [here](https://howtoblur-css.netlify.app/)
 - Project 7: Flex Panels (day 4)<br />
+    (cool UI feature added to inventory)
     Deployment: [here](https://letstakeitallin.netlify.app/)
 - Project 8: Dynamic Search Page (day 5)<br />
+    (nice search bar feature added to inventory)
     Deployment: [here](https://useless-search-feature.netlify.app/)
 - Project 9: Simple Canvas (day 5)<br />
+    (basic drawing canvas feature added to inventory)
     Deployment: [here](https://useless-canvas.netlify.app/)
 - Project 10: Hold shift to check (day 5)<br />
     Deployment: [here](https://hold-shift-to-check-items-saar.netlify.app/)
+- Project 11: Custom Video Player (day 5)<br />
+    (video player feature added to inventory)
+    Deployment: [here](https://hopecore-video.netlify.app/)
