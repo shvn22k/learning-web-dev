@@ -20,3 +20,5 @@
     Deployment: [here](https://useless-search-feature.netlify.app/)
 - Project 9: Simple Canvas (day 5)<br />
     Deployment: [here](https://useless-canvas.netlify.app/)
+- Project 10: Hold shift to check (day 5)<br />
+    Deployment: [here](https://hold-shift-to-check-items-saar.netlify.app/)
