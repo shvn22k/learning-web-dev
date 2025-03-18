@@ -1,5 +1,5 @@
-# Mini web dev project speedrun (project based learning)
-### These projects are code-along projects, made for practice purposes only and deployed to keep track and proof of my webdev speedrun.
+# Mini web dev project speedrun (project based learning)<br />
+These projects are code-along projects, made for practice purposes only and deployed to keep track and proof of my webdev speedrun.
 ---
 - Project 1: Neet countdown web app (day 1)<br />
     Deployment: [here](https://neet2025-countdown.netlify.app/)
