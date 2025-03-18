@@ -14,3 +14,5 @@
     Deployment: [here](https://howtoblur-css.netlify.app/)
 - Project 7: Flex Panels (day 4)<br />
     Deployment: [here](https://letstakeitallin.netlify.app/)
+- Project 8: Dynamic Search Page (day 5)<br />
+    Deployment: [here](https://useless-search-feature.netlify.app/)
