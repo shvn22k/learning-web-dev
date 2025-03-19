@@ -28,3 +28,6 @@
 - Project 11: Custom Video Player (day 5)<br />
     (video player feature added to inventory)
     Deployment: [here](https://hopecore-video.netlify.app/)
+- Project 12: Slide-in Images on Scroll (day 6)<br />
+    (nice UI feature added to inventory)
+    Deployment: [here](https://slidein-scroll-feature.netlify.app/)
