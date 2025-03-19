@@ -31,3 +31,7 @@
 - Project 12: Slide-in Images on Scroll (day 6)<br />
     (nice UI feature added to inventory)
     Deployment: [here](https://slidein-scroll-feature.netlify.app/)
+- Project 13: Local tapas (day 6)<br />
+    (local storage feature added to inventory, very useful for todo-list type functionalities)
+    Deployment: [here](https://localtapascodealongshit.netlify.app/)
+  
