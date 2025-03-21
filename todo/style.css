@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 
 :root {
-  --primary-color: #C1C4B1;
-  --secondary-color: #2C3638;
-  --button-text-color: #2C3638;
+  --primary-color: #c1c4b1;
+  --secondary-color: #2c3638;
+  --button-text-color: #2c3638;
 }
 
 body {
@@ -14,8 +14,8 @@ body {
 }
 
 body.dark-mode {
-  --primary-color: #2C3638;
-  --secondary-color: #C1C4B1;
+  --primary-color: #2c3638;
+  --secondary-color: #c1c4b1;
 }
 
 html {
@@ -54,8 +54,8 @@ svg {
 
 .dark-mode-toggle {
   position: absolute;
-  top: 10px;
-  right: -150px;
+  top: 5px;
+  right: -500px;
   padding: 8px 16px;
   background-color: white;
   color: var(--button-text-color);
@@ -64,7 +64,6 @@ svg {
   cursor: pointer;
   font-family: "Roboto Mono", monospace;
   transition: all 0.3s ease;
-  margin-left: 100px;
 }
 
 .dark-mode-toggle:hover {
@@ -146,19 +145,19 @@ h2 {
 }
 
 .clear-all {
-    margin-top: 20px;
-    padding: 10px;
-    outline: 0;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    font-family: "Roboto Mono", monospace;
-    background-color: white;
-    color: var(--button-text-color);
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border-radius: 4px;
+  margin-top: 20px;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: "Roboto Mono", monospace;
+  background-color: white;
+  color: var(--button-text-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 4px;
 }
 
 .clear-all:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px var(--secondary-color);
+  transform: translateY(-5px);
+  box-shadow: 0 5px var(--secondary-color);
 }
