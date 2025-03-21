@@ -34,4 +34,6 @@
 - Project 13: Local tapas (day 6)<br />
     (local storage feature added to inventory, very useful for todo-list type functionalities)<br />
     Deployment: [here](https://localtapascodealongshit.netlify.app/)
+- Project 14: Todo List Webapp (day 7)<br />
+    Deployment: [here](https://yet-another-todo-list-app.netlify.app/)
   
