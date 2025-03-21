@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO</title>
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    sorry for this, i just had to commit something to make today's box green, i have exam tmrw so couldnt code but just for the sake of green box i am making this commit by initializing a project.
+    <div class="header">
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px"
+            viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve">
+            <g id="notes">
+                <g>
+                    <path
+                        d="M349.9,512H42.7V0h426.7v392.5L349.9,512z M85.3,469.3h213.3V341.3h128V42.7H85.3v42.7h341.3v42.7H85.3V469.3z M341.3,384v76.8l76.8-76.8H341.3z M234.7,384H128v-42.7h106.7V384z M384,298.7H128v-42.7h256V298.7z M341.3,213.3H128v-42.7h213.3V213.3z" />
+                </g>
+            </g>
+        </svg>
+        <button class="dark-mode-toggle">Toggle Dark/Light</button>
+    </div>
+    <div class="wrapper">
+        <h2>TODO LIST</h2>
+        <p></p>
+        <ul class="todo-items">
+            <li>Loading todo items...</li>
+        </ul>
+        <form class="todo-form">
+            <input type="text" name="item" placeholder="Todo Item" required>
+            <input type="submit" id="addbtn" value="+ Add Todo">
+        </form>
+        <button class="clear-all">Clear All</button>
+    </div>
+
+    <script src="app.js"></script>
 </body>
+
 </html>

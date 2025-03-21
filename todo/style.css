@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+  --primary-color: #C1C4B1;
+  --secondary-color: #2C3638;
+  --button-text-color: #2C3638;
+}
+
+body {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+body.dark-mode {
+  --primary-color: #2C3638;
+  --secondary-color: #C1C4B1;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  display: flex;
+  max-height: 100vh;
+  justify-content: center;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+svg {
+  fill: var(--secondary-color);
+  background: rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 30%;
+  width: 220px;
+  height: 220px;
+  margin-bottom: 50px;
+  transition: fill 0.3s ease;
+}
+
+.dark-mode-toggle {
+  position: absolute;
+  top: 10px;
+  right: -150px;
+  padding: 8px 16px;
+  background-color: white;
+  color: var(--button-text-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Roboto Mono", monospace;
+  transition: all 0.3s ease;
+  margin-left: 100px;
+}
+
+.dark-mode-toggle:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px var(--secondary-color);
+}
+
+.wrapper {
+  padding: 20px;
+  max-width: 350px;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+}
+
+.todo-items {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  list-style: none;
+}
+
+.todo-items li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px 0;
+  display: flex;
+}
+
+.todo-items input {
+  display: none;
+}
+
+.todo-items label {
+  flex: 1;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.todo-items input + label:before {
+  content: "⬜️";
+  margin-right: 10px;
+}
+
+.todo-items input:checked + label:before {
+  content: "✅";
+}
+
+.todo-items input:checked + label {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.todo-form {
+  margin-top: 20px;
+}
+
+.todo-form input {
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: "Roboto Mono", monospace;
+  border-radius: 4px;
+}
+
+.todo-form input[type="submit"] {
+  background-color: white;
+  color: var(--button-text-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.todo-form input[type="submit"]:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px var(--secondary-color);
+}
+
+.clear-all {
+    margin-top: 20px;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-family: "Roboto Mono", monospace;
+    background-color: white;
+    color: var(--button-text-color);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.clear-all:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px var(--secondary-color);
+}
