@@ -36,4 +36,6 @@
     Deployment: [here](https://localtapascodealongshit.netlify.app/)
 - Project 14: Todo List Webapp (day 7)<br />
     Deployment: [here](https://yet-another-todo-list-app.netlify.app/)
+- Project 15: Navbar that stays (day 7+8ish)<br />
+    Deployment: [here](https://areyyyy.netlify.app/)
   
