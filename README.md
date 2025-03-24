@@ -41,5 +41,5 @@
 - Project 16: Todo List using Reactjs (day 9)<br />
     Deployment: [here](https://yet-another-todo-list-app-in-react.netlify.app/)
 - Project 17: NASA's image of the day (day 11)<br />
-    Deployment: [here](https://67e18688f7213c0cdeffe476--nasa-astronomy-pic-of-the-day.netlify.app/)
+    Deployment: [here](https://apotd-project-react.vercel.app/)
   
