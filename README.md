@@ -38,4 +38,8 @@
     Deployment: [here](https://yet-another-todo-list-app.netlify.app/)
 - Project 15: Navbar that stays (day 7+8ish)<br />
     Deployment: [here](https://areyyyy.netlify.app/)
+- Project 16: Todo List using Reactjs (day 9)<br />
+    Deployment: [here](https://yet-another-todo-list-app-in-react.netlify.app/)
+- Project 17: NASA's image of the day (day 11)<br />
+    Deployment: [here]()
   
