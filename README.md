@@ -40,6 +40,7 @@
     Deployment: [here](https://areyyyy.netlify.app/)
 - Project 16: Todo List using Reactjs (day 9)<br />
     Deployment: [here](https://yet-another-todo-list-app-in-react.netlify.app/)
-- Project 17: NASA's image of the day (day 11)<br />
+- Project 17: NASA's image of the day using Reactjs (day 11)<br />
     Deployment: [here](https://apotd-project-react.vercel.app/)
-  
+- Project 18: Friend Management app using Reactjs (idk wut day)<br />
+    Deployment: [here(deployed on render so will take 40-50sec to start)](https://fren-manager.onrender.com/)
